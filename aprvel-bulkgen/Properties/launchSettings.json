@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "aprvel-bulkgen": {
+      "commandName": "Project",
+      "commandLineArgs": "--export-csv"
+    }
+  }
+}

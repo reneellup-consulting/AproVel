@@ -1,0 +1,22 @@
+{
+  "name": "aprvel-api",
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file=.env --import tsx --watch src/index.ts",
+    "build": "tsup src/index.ts --format esm --dts",
+    "start": "node --env-file=.env dist/index.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.19.9",
+    "@hono/zod-validator": "^0.7.6",
+    "hono": "^4.11.9",
+    "node-appwrite": "^22.0.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "tsup": "^8.5.1",
+    "tsx": "^4.7.1",
+    "typescript": "^5.8.3"
+  }
+}

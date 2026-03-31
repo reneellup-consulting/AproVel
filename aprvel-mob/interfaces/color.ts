@@ -1,0 +1,39 @@
+// 1. Define the shape of your color object
+export interface AppColors {
+  background: string;
+  foreground: string;
+  card: string;
+  cardForeground: string;
+  popover: string;
+  popoverForeground: string;
+  primary: string;
+  primaryForeground: string;
+  secondary: string;
+  secondaryForeground: string;
+  muted: string;
+  mutedForeground: string;
+  accent: string;
+  accentForeground: string;
+  destructive: string;
+  destructiveForeground: string;
+  border: string;
+  input: string;
+  ring: string;
+  text: string;
+  textMuted: string;
+  tint: string;
+  icon: string;
+  tabIconDefault: string;
+  tabIconSelected: string;
+  blue: string;
+  green: string;
+  red: string;
+  orange: string;
+  yellow: string;
+  pink: string;
+  purple: string;
+  teal: string;
+  indigo: string;
+  success: string;
+  danger: string;
+}

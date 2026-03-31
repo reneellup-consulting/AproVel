@@ -1,0 +1,138 @@
+{
+  "orders": [
+    {
+      "id": "552",
+      "po_type": "General",
+      "ref_id": 651301,
+      "source_no": "PO0000050938",
+      "status": "rejected",
+      "status_by": "",
+      "status_date": null,
+      "vendor": "GLC FUEL STATION",
+      "vendor_address": "Purok 02 Sto. Niño, Brgy. Glamang Polomolok, South Cotabato, Philippines",
+      "ship_to_address": "Gavel Logistics Complex\r\nPurok 02 Sto. Niño, Barangay Glamang,  Polomolok, South Cotabato, Philippines",
+      "ref_nos": "RQ0000130336",
+      "entry_date": "2025-02-27T09:47:52.043",
+      "expected_date": "2025-02-27T00:00:00",
+      "remarks": "Manually Printed PO#:\r\nREF#s: CS#4756\r\nCHARGE TO OMPONG, SONNY",
+      "comments": "REF#s: CS#4756\r\nCHARGE TO OMPONG, SONNY",
+      "history": "",
+      "fuel_customer": "",
+      "unit_no": "",
+      "meter_read": 0,
+      "tagged_trips": "",
+      "fuel_usage_class": "None",
+      "trip_type": "",
+      "driver": "",
+      "prev_gas_date": null,
+      "prev_meter": 0,
+      "prev_no_liters": 0,
+      "prev_price": 0,
+      "prev_total_amt": 0,
+      "order_lines": [
+        {
+          "id": "102982",
+          "parent_id": "552",
+          "line_ref_id": 102982,
+          "item": "Diesel Fuel (GLC) Station ",
+          "requestor": "SERVIÑAS, JOMAR F.",
+          "charge_to": "OMPONG.SANNY T.",
+          "quantity": 40,
+          "unit_of_measure": "LTR",
+          "unit_cost": 55.95,
+          "total": 2238,
+          "reason": "HI-GAS TRACTOR 48-130 REFUEL DATED 02/27/2025",
+          "line_status": "Hold",
+          "facility_department": "",
+          "requisition_no": "RQ0000130336",
+          "discount": 0,
+          "remaining_qty": 40,
+          "origin": "",
+          "destination": "",
+          "code_no": "",
+          "tad": 0
+        },
+        {
+          "id": "102983",
+          "parent_id": "552",
+          "line_ref_id": 102983,
+          "item": "Diesel Fuel (GLC) Station ",
+          "requestor": "SERVIÑAS, JOMAR F.",
+          "charge_to": "OMPONG.SANNY T.",
+          "quantity": 117,
+          "unit_of_measure": "LTR",
+          "unit_cost": 54.75,
+          "total": 6405.75,
+          "reason": "HI-GAS GENSET 18-08 REFUEL DATED FEBRUARY 13, 2025",
+          "line_status": "Hold",
+          "facility_department": "",
+          "requisition_no": "RQ0000130336",
+          "discount": 0,
+          "remaining_qty": 117,
+          "origin": "",
+          "destination": "",
+          "code_no": "",
+          "tad": 0
+        }
+      ],
+      "rejection_reason": "Test rejection only"
+    }
+  ],
+  "metrics": [
+    {
+      "month": "Jan 2026",
+      "amount": 2601950.9465
+    },
+    {
+      "month": "Dec 2025",
+      "amount": 5799780.3146
+    },
+    {
+      "month": "Nov 2025",
+      "amount": 5846194.2675
+    },
+    {
+      "month": "Oct 2025",
+      "amount": 9365796.945
+    },
+    {
+      "month": "Sep 2025",
+      "amount": 7910539.094
+    },
+    {
+      "month": "Aug 2025",
+      "amount": 5505903.6904
+    },
+    {
+      "month": "Jul 2025",
+      "amount": 3023677.8455
+    }
+  ],
+  "stats": [
+    {
+      "vendor_name": "GELAI FUEL AND SERVICES CORPORATION/GELGAI SERVICES",
+      "total_amount": 17803197.3,
+      "percentage_change": 13.24
+    },
+    {
+      "vendor_name": "GS GAVEL LOGISTICS CO., INC.",
+      "total_amount": 11363985.608,
+      "percentage_change": -10.42
+    },
+    {
+      "vendor_name": "GLC FUEL STATION",
+      "total_amount": 9768373.0115,
+      "percentage_change": 14.16
+    },
+    {
+      "vendor_name": "GENSAN POWERSHIFT GASOLINE \u0026 SERVICE STATION",
+      "total_amount": 7969295.0,
+      "percentage_change": 19.18
+    },
+    {
+      "vendor_name": "ECCO HARDWARE INC.",
+      "total_amount": 3861341.578,
+      "percentage_change": 10.53
+    }
+  ]
+}

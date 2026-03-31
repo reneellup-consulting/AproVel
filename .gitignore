@@ -1,0 +1,4 @@
+.env
+
+# .NET 8+ Centralized Artifacts Output
+artifacts/
